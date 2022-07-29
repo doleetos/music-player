@@ -58,8 +58,8 @@ body {
     font-size: 20px;
     cursor: pointer;
     padding: 20px;
-    margin: 0 10px;
-    width: 5px;
+    margin: 0 18px;
+    width: 10px;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -116,12 +116,33 @@ body {
 
 @media (max-width: 424px) {
     #music-container {
-        width: 90vw;
+        width: 65vw;
+    }
+
+    #title {
+        font-size: 18px;
+    }
+
+    .action-btn{
+        padding: 15px 0 5px 0;
+        width: 40px;
+        margin: 0 8px;
     }
 }
 
 @media (max-width: 280px) {
+    #title {
+        font-size: 16px;
+    }
     .playlist {
         width: 98%;
+    }
+
+    .action-btn{
+        font-size: 99%;
+        padding: 10px;
+    }
+    .progress-container {
+        margin-top: 10px;
     }
 }
